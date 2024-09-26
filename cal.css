@@ -1,0 +1,53 @@
+.calbackg{
+background-color: #F5F5F5;
+
+width: 400px;
+border: solid 1px;
+border-radius: 10px 10px 10px 10px;
+
+padding: 10px;
+}
+
+
+
+.btns{
+display: grid;
+grid-template-columns: auto auto auto auto;
+column-gap:10px;
+row-gap: 10px;
+width: 400px;
+height: 400px;
+
+}
+input{
+font-family: forte;
+font-size: 30px;
+border-radius: 10px 10px 10px 10px;
+background-color:#4A90E2;
+color:#333333;
+}
+input:hover{
+background-color:lightblue;
+}
+#offAll:hover{
+background-color:darkred;
+color: white;
+}
+#delb:hover{
+background-color:red;
+color: white;
+}
+#clearB{
+height:100px;
+grid-column: 1/5;
+background-color: white;
+}
+ 
+#answerThem{
+grid-column:3/5;
+}
+#answerThem:hover{
+background-color:lightgreen;
+}
+  
+                         
