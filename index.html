@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple Calculator</title>
+<link rel="stylesheet" href="cal.css">
+</head>
+
+<body>
+<div class="calbackg" >
+<div class="btns">
+<input type="text" value="" id="clearB" enabled>
+<input type="button" value="AC" id="offAll" onclick="clearAll()" >
+<input type="button" value="DE" id="delb" onclick="deleteLast()">
+<input type="button" value="." id="thenums" onclick="getV('.')">
+<input type="button" value="/" id="thenums" onclick="getV('/')">
+<input type="button" value="7" id="thenums" onclick="getV('7')">
+<input type="button" value="8" id="thenums"onclick="getV('8')">
+<input type="button" value="9" id="thenums" onclick="getV('9')">
+<input type="button" value="*" id="thenums" onclick="getV('*')">
+<input type="button" value="4" id="thenums" onclick="getV('4')">
+<input type="button" value="5"id="thenums" onclick="getV('5')">
+<input type="button" value="6" id="thenums" onclick="getV('6')">
+<input type="button" value="-" id="thenums" onclick="getV('-')">
+<input type="button" value="1" id="thenums" onclick="getV('1')">
+<input type="button" value="2" id="thenums" onclick="getV('2')">
+<input type="button" value="3" id="thenums" onclick="getV('3')">
+<input type="button" value="+" id="thenums" onclick="getV('+')">
+<input type="button" value="00" id="thenums" onclick="getV('00')">
+<input type="button" value="0" id="thenums" onclick="getV('0')">
+<input type="button" value="=" id="answerThem" onclick="calculate()">
+</div>
+</div>
+
+
+
+<script src="cal.js"></script>
+</body>
+</html>
+
+
+
+    
